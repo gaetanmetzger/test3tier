@@ -37,7 +37,7 @@ metadata:
   name: test3tier-frontend-ns
   description: namespace
 spec:
-  type: database
+  type: namespace
   owner: user:default/guest
   system: system:default/sokube-system
   lifecycle: experimental
