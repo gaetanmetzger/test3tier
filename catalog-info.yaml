@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test3tier-frontend
+  description: Frontend for test3tier
+spec:
+  type: service
+  owner: user:default/guest
+  system: system:default/sokube-system
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test3tier-backend
+  description: Backend for test3tier
+spec:
+  type: service
+  owner: user:default/guest
+  system: system:default/sokube-system
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: test3tier-db
+  description: Database for test3tier
+spec:
+  type: database
+  owner: user:default/guest
+  system: system:default/sokube-system
+  lifecycle: experimental
