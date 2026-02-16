@@ -30,3 +30,14 @@ spec:
   owner: user:default/guest
   system: system:default/sokube-system
   lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: test3tier-frontend-ns
+  description: namespace
+spec:
+  type: database
+  owner: user:default/guest
+  system: system:default/sokube-system
+  lifecycle: experimental
